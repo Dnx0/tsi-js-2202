@@ -1,0 +1,7 @@
+<script>
+let peso = parseFloat(prompt("digite o seu peso:"));
+let altura = parseFloat(prompt("digite sua altura:"));
+let imc = peso/(altura*altura);
+
+console.log("seu imc é de: " + imc);
+</script>
