@@ -1,0 +1,33 @@
+<script>
+let vetor = ['Rodrigues', 'Aguiar', 'Marta', 'Yuri', 'Matheus', 'Pedro'];
+
+//looping com vetor
+
+for (var i = 0; i < vetor.length; i++) {
+   console.log('Seu Sobrenome é '+ vetor[i] + "")
+  };
+
+//lenght, ele mostra a quantidade conteúdo 
+//CUIDADO POSSIVEL VIRUS!!!
+/*
+for (var i = 0; i < vetor.length; i++) {
+    vetor[i]=20;
+   console.log('Seu Sobrenome é '+ vetor[i] + "")
+  };
+*/
+
+//Foreach For = paraeach = cada 
+
+//O forEach chama uma função, na qual vai esperar dois parametros na seguinte ordem: 1º valeu = "Valor" e 2º index
+vetor.forEach(function (valor, indice){
+
+    console.log(`${indice}: ${valor}`);
+});
+
+//Map
+
+vetor.map(function(valor, indice){
+
+    console.log(`${indice}: ${valor}`);
+});
+</script>
